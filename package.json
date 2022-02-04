@@ -1,0 +1,46 @@
+{
+  "name": "ABRIC-certificate-generator",
+  "version": "1.0.0",
+  "description": "API for generate the certificates",
+  "main": "server.js",
+  "scripts": {
+    "dev": "ts-node-dev -r dotenv/config ./src/server.ts",
+    "build": "tsc",
+    "start": "node -r dotenv/config ./build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leoprietsch/ABRIC-certificate-generator.git"
+  },
+  "keywords": [],
+  "author": "leoprietsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leoprietsch/ABRIC-certificate-generator/issues"
+  },
+  "homepage": "https://github.com/Leoprietsch/ABRIC-certificate-generator#readme",
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^15.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "^2.5.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "express": "^4.17.2"
+  }
+}
