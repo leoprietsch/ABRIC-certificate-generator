@@ -9,8 +9,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   if (!req.files || Object.keys(req.files).length === 0) {
-    res.status(400).send("No files were uploaded.");
-    return;
+    return res.status(400).send("No files were uploaded.");
   }
 
   const file = req.files.file as UploadedFile;
