@@ -1,4 +1,4 @@
-interface ICertificate {
+interface Certificate {
   name: string;
   project: string;
   fair: string;
@@ -6,4 +6,4 @@ interface ICertificate {
   email: string;
 }
 
-export default ICertificate;
+export default Certificate;
